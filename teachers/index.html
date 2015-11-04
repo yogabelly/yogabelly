@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li class="active">Teachers</li>
+</ol>
+
+<h1>Yoga Belly Teachers</h1>
+<div class="row">
+ {% for page in site.pages %}
+   {% if page.layout == 'teacher' %}
+  <div class="col-md-3 col-sm-4 col-xs-6">
+   <a class="well teacher" href="{{ page.url }}">
+    <div class="imgholder">
+     <img src="{{ page.thumbnail_url }}">
+    </div>
+    <div class="name">{{ page.title }}</div>
+    <div class="locations">({{ page.locations | join: ", " }})</div>
+   </a>
+  </div>
+   {% endif %}
+ {% endfor %}
+</div>

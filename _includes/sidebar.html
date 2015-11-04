@@ -1,0 +1,22 @@
+<div class="col-sm-2 hidden-xs">
+ <!-- navigation for large screens -->
+ {{ testvar }}
+
+ <ul class="nav nav-pills nav-stacked">
+ {% for nav in site.navigation %}
+   {% if page.url contains nav.url or (page.url == '/' and nav.url == '/index.html') %}
+     {% assign c = "active" %}
+   {% else %}
+     {% assign c = "" %}
+   {% endif %}
+  <li role="presentation" class="{{ c }}"><a href="{{ nav.url | replace: 'index.html', ''}}">{{ nav.label }}</a></li>
+ {% endfor %}
+ </ul>
+ <hr>
+ <ul class="nav nav-pills nav-stacked">
+ {% for nav in site.navigation_links %}
+  <li role="presentation"><a target="_blank" rel="nofollow" href="{{ nav.url }}">{{ nav.label }}</a></li>
+ {% endfor %}
+ </ul>
+</div>
+ <!-- end navigation for large screens -->

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li><a href="/teachers/">Teachers</a></li>
+  <li class="active">{{ page.title }}</li>
+</ol>
+
+ <h1>Teachers: {{ page.title }}
+ {% if page.mbo_id %}
+ <small>
+  (<a target="blank" href="http://clients.mindbodyonline.com/ws.asp?studioid=11869&amp;stype=-7&amp;sView=week&amp;sLoc=0&amp;sTrn={{ page.mbo_id }}">schedule</a>)
+ </small>
+ {% endif %}
+ </h1>
+ {% if page.youtube %}
+ <div class="teacher_image"><iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allowfullscreen></iframe></div>
+ {% elsif page.image_url %}
+ <div class="teacher_image"><img src="{{ page.image_url }}"></div>
+ {% else %}
+ <div class="teacher_image"><img src="/images/teachers/placeholder.png"></div>
+ {% endif %}
+ <div class="teacher_description">{{ content }}</div>

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li class="active">Locations</li>
+</ol>
+
+<h1>Locations</h1>
+
+ {% for page in site.pages %}
+   {% if page.layout == 'location' %}
+  <div class="col-sm-6">
+  	<div class="well">
+      <h2>{{ page.title }}</h2>
+      <div class="address">{{ page.address }}</div>
+      <a target="_blank" rel="nofollow" href="https://www.google.com/maps?source=uds&amp;q={{ page.address | urlencode }}">
+        <img class="img-responsive mapview" src="http://maps.googleapis.com/maps/api/staticmap?markers={{ page.address | urlencode }}&amp;zoom=15&amp;size=400x250&amp;sensor=false">
+      </a>
+      <div class="description">{{ page.content }}</div>
+    </div>
+  </div>
+   {% endif %}
+ {% endfor %}

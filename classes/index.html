@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li class="active">Classes</li>
+</ol>
+
+<div class="row">
+ {% for page in site.pages %}
+   {% if page.layout == 'class' %}
+  <div class="col-md-4 col-sm-4 col-xs-6">
+   <a class="well class" href="{{ page.url }}">
+    <h2>{{ page.title|safe }}</h2>
+    <div class="imgholder"><img class="img-responsive" src="{{ page.thumbnail_url }}"></div>
+    <div class="class-blurb">{{ page.blurb }}</div>
+   </a>
+  </div>
+   {% endif %}
+ {% endfor %}
+</div>
