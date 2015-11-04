@@ -21,9 +21,6 @@ category-list: [classes, teachers]
 # Navigation
 navigation:
   -
-    label: Home
-    url: /index.html
-  -
     label: Classes
     url: /classes/
   -
