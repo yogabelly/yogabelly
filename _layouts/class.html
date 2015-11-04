@@ -3,11 +3,11 @@ layout: default
 ---
 
 <ol class="breadcrumb">
-  <li><a href="/">Home</a></li>
-  <li><a href="/classes/">Classes</a></li>
+  <li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
+  <li><a href="{{ "/classes/" | prepend: site.baseurl }}">Classes</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
 
  <h1>Classes: {{ page.title }}</h1>
- <div class="class_image"><img src="{{ page.image_url }}"></div>
+ <div class="class_image"><img src="{{ page.image_url | prepend: site.baseurl }}"></div>
  <div class="class_description">{{ content }}</div>

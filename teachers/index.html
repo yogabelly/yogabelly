@@ -3,7 +3,7 @@ layout: default
 ---
 
 <ol class="breadcrumb">
-  <li><a href="/">Home</a></li>
+  <li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
   <li class="active">Teachers</li>
 </ol>
 
@@ -12,9 +12,9 @@ layout: default
  {% for page in site.pages %}
    {% if page.layout == 'teacher' %}
   <div class="col-md-3 col-sm-4 col-xs-6">
-   <a class="well teacher" href="{{ page.url }}">
+   <a class="well teacher" href="{{ page.url | prepend: site.baseurl }}">
     <div class="imgholder">
-     <img src="{{ page.thumbnail_url }}">
+     <img src="{{ page.thumbnail_url | prepend: site.baseurl }}">
     </div>
     <div class="name">{{ page.title }}</div>
     <div class="locations">({{ page.locations | join: ", " }})</div>
