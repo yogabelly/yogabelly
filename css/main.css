@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Pea-Susela';
-    src:url('/static/fonts/Pea-Susela.ttf.woff') format('woff'),
-        url('/static/fonts/Pea-Susela.ttf.svg#Pea-Susela') format('svg'),
-        url('/static/fonts/Pea-Susela.ttf.eot'),
-        url('/static/fonts/Pea-Susela.ttf.eot?#iefix') format('embedded-opentype'); 
+    src:url('../static/fonts/Pea-Susela.ttf.woff') format('woff'),
+        url('../static/fonts/Pea-Susela.ttf.svg#Pea-Susela') format('svg'),
+        url('../static/fonts/Pea-Susela.ttf.eot'),
+        url('../static/fonts/Pea-Susela.ttf.eot?#iefix') format('embedded-opentype'); 
     font-weight: normal;
     font-style: normal;
 }
@@ -13,7 +13,7 @@ html {
     overflow-y:scroll;
 }
 body {
-	background: url('/images/layout/background.png');
+	background: url('../images/layout/background.png');
 	font-family: 'Lato', sans-serif;
 	color: #4a5160;
 	-webkit-font-smoothing: antialiased;

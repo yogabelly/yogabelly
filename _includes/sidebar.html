@@ -9,7 +9,7 @@
    {% else %}
      {% assign c = "" %}
    {% endif %}
-  <li role="presentation" class="{{ c }}"><a href="{{ nav.url | replace: 'index.html', ''}}">{{ nav.label }}</a></li>
+  <li role="presentation" class="{{ c }}"><a href="{{ nav.url | replace: 'index.html', '' | prepend: site.baseurl }}">{{ nav.label }}</a></li>
  {% endfor %}
  </ul>
  <hr>
