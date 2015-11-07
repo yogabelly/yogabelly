@@ -27,9 +27,15 @@ dt {
 dd {
     margin-bottom: 20px;
 }
-h1, h2, h3 {
-  color: #900;
+h1, h2 {
   font-family: 'Pea-Susela', cursive;
+}
+h1 {
+	color: #900;
+	margin-bottom: 20px;
+}
+h2 {
+	color: #900;
 }
 
 /* temporary theme adjustments */
