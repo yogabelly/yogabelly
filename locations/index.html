@@ -8,7 +8,7 @@ layout: default
 </ol>
 
 <h1>Locations</h1>
-
+<div class="row">
  {% for page in site.pages %}
    {% if page.layout == 'location' %}
   <div class="col-sm-6">
@@ -23,3 +23,4 @@ layout: default
   </div>
    {% endif %}
  {% endfor %}
+</div>
