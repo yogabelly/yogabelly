@@ -1,9 +1,9 @@
 ---
-layout: teacher
+layout: teacher-inactive
 title: Dustin Jones
 thumbnail_url: /images/teachers/dustin-jones-thumb.jpg
 image_url: /images/teachers/dustin-jones.jpg
-youtube: 
+youtube:
 locations: ['Mountain View', 'San Jose']
 mbo_id: 100000199
 ---

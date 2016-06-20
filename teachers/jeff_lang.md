@@ -4,7 +4,7 @@ title: Jeff Lang
 thumbnail_url: /images/teachers/jeff-lang-thumb.jpg
 image_url: /images/teachers/jeff-lang.jpg
 youtube: XAF8Do4fIAA
-locations: ['San Jose']
+locations: ['Mountain View']
 mbo_id: 100000025
 ---
 

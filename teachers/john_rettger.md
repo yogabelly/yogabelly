@@ -1,9 +1,9 @@
 ---
-layout: teacher
+layout: teacher-inactive
 title: John Rettger
 thumbnail_url: /images/teachers/john-rettger-thumb.jpg
-image_url: 
-youtube: 
+image_url:
+youtube:
 locations: ['Mountain View']
 mbo_id: 100000110
 ---

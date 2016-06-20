@@ -1,9 +1,9 @@
 ---
-layout: teacher
+layout: teacher-inactive
 title: Sean Loosli
 thumbnail_url: /images/teachers/sean-loosli-thumb.jpg
 image_url: /images/teachers/sean-loosli.jpg
-youtube: 
+youtube:
 locations: ['Mountain View']
 mbo_id: 100000048
 ---
