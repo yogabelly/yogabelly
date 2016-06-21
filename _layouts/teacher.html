@@ -8,17 +8,19 @@ layout: default
   <li class="active">{{ page.title }}</li>
 </ol>
 
- <h1>Teachers: {{ page.title }}
+ <h1>{{ page.title }}
    <small>
      ({{ page.locations | join: ", " }}{% if page.mbo_id %}
       &mdash; <a target="blank" href="http://clients.mindbodyonline.com/ws.asp?studioid=11869&amp;stype=-7&amp;sView=week&amp;sLoc=0&amp;sTrn={{ page.mbo_id }}">schedule</a>{% endif %})
   </small>
  </h1>
+
+
  {% if page.youtube %}
- <div class="teacher_image"><iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allowfullscreen></iframe></div>
+    <iframe style="width: 480px; height: 270px; float: left; margin-top: 10px; margin-right: 20px" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>
  {% elsif page.image_url %}
- <div class="teacher_image"><img src="{{ page.image_url | prepend: site.baseurl }}"></div>
+    <img style="border-radius: 5px; border: 1px solid #666; width: 45%; float: left; margin-top: 5px; margin-right: 20px" src="{{ page.image_url | prepend: site.baseurl }}" style="width: 100%">
  {% else %}
- <div class="teacher_image"><img src="{{ "/images/teachers/placeholder.png" | prepend: site.baseurl }}"></div>
+    <img src="{{ "/images/teachers/placeholder.png" | prepend: site.baseurl }}">
  {% endif %}
- <div class="teacher_description">{{ content }}</div>
+      <div class="teacher_description">{{ content }}</div>
