@@ -12,8 +12,8 @@ layout: default
    {% if page.layout == 'class' %}
   <div class="col-md-4 col-sm-4 col-xs-6">
    <a class="well class" href="{{ page.url | prepend: site.baseurl }}">
-    <h2>{{ page.title }}</h2>
-    <div class="imgholder"><img class="img-responsive" src="{{ page.thumbnail_url | prepend: site.baseurl }}"></div>
+    <h2 style="height: 60px">{{ page.title }}</h2>
+    <div class="imgholder" style="background: url({{ page.thumbnail_url | prepend: site.baseurl }}); background-size: cover; padding-top: 100%"></div>
     <div class="class-blurb">{{ page.blurb }}</div>
    </a>
   </div>

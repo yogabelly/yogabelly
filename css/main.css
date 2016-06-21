@@ -3,9 +3,21 @@
     src:url('../static/fonts/Pea-Susela.ttf.woff') format('woff'),
         url('../static/fonts/Pea-Susela.ttf.svg#Pea-Susela') format('svg'),
         url('../static/fonts/Pea-Susela.ttf.eot'),
-        url('../static/fonts/Pea-Susela.ttf.eot?#iefix') format('embedded-opentype'); 
+        url('../static/fonts/Pea-Susela.ttf.eot?#iefix') format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
+}
+
+video.fullscreen {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 100;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -17,6 +29,14 @@ body {
 	font-family: 'Lato', sans-serif;
 	color: #4a5160;
 	-webkit-font-smoothing: antialiased;
+}
+body.h {
+  background: #fff;
+}
+body.h header,
+body.h div,
+body.h footer {
+  visibility: hidden;
 }
 a {
 	font-weight: bold;
@@ -36,6 +56,7 @@ h1 {
 }
 h2 {
 	color: #900;
+  font-size: 20pt;
 }
 
 /* temporary theme adjustments */
@@ -97,15 +118,15 @@ h2 {
 
 .page {
 	background: #d6e2ee;
-	
+
 	-moz-box-shadow:    0px 1px 3px 1px #b9c1d0;
 	-webkit-box-shadow: 0px 1px 3px 1px #b9c1d0;
 	box-shadow:         0px 1px 3px 1px #b9c1d0;
-	
+
 	-webkit-box-shadow: 0px 2px 6px 0px rgba(25,67,153,0.25);
 	-moz-box-shadow: 0px 2px 6px 0px rgba(25,67,153,0.25);
 	box-shadow: 0px 2px 6px 0px rgba(25,67,153,0.25);
-	
+
 	padding-top: 20px;
 	padding-bottom: 20px;
 	border-radius: 4px;
@@ -144,7 +165,7 @@ a.well:hover {
 
 .imgholder {
   width: 100%;
-  height: 200px;
+  padding-top: 100%;
   border: 1px solid #aaa;
   border-radius: 4px;
   overflow: hidden;
@@ -156,7 +177,6 @@ a.well:hover {
 
 .teacher {
   font-weight: normal;
-  height: 325px;
   overflow: hidden;
 }
 .teacher:hover {
@@ -167,6 +187,7 @@ a.well:hover {
 .teacher .name {
   text-align: center;
   font-size: 18px;
+  height: 50px;
 }
 .teacher .locations {
   font-size: 10px;
@@ -195,6 +216,11 @@ a.well:hover {
 	margin-top: 20px;
 	text-align: center;
 }
-.teacherdesc p {
-	text-indent: 1em;
+.teacher_description p,
+.class_description p {
+	overflow: auto;
+}
+.teacher_description ul,
+.class_description ul {
+  overflow: auto;
 }

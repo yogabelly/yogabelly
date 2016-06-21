@@ -10,7 +10,7 @@ title: Yoga Belly
 email: contact@yogabellystudio.com
 description: > # Yoga
   Belly.
-baseurl: "/yogabelly" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ojensen5115.github.io" # the base hostname & protocol for your site
 
 # Build settings
@@ -20,6 +20,9 @@ category-list: [classes, teachers]
 
 # Navigation
 navigation:
+  -
+    label: Home
+    url: /
   -
     label: Classes
     url: /classes/
