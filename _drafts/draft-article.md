@@ -43,6 +43,9 @@ You can insert a quote by using angle-brackets:
 Links use this format:
 [linktext](http://www.example.com/page.html)
 
+Basic links (without linktext) use this format:
+<http://www.example.com>
+
 Images use this format:
 ![image alt text](/images/blog/example/image.jpg)
 
