@@ -16,4 +16,8 @@ url: "https://yogabelly.github.io" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
+# Defines which types of things have their own listsings
 category-list: [classes, teachers]
+
+# Allows us to put the blog in a subdirectory
+permalink: /blog/:categories/:year/:month/:day/:title.html

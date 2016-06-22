@@ -224,3 +224,10 @@ a.well:hover {
 .class_description ul {
   overflow: auto;
 }
+
+.blog img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
