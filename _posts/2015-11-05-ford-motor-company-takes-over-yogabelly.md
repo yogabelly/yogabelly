@@ -11,6 +11,6 @@ author: Aaron
 # https://help.github.com/articles/basic-writing-and-formatting-syntax/
 ---
 
-![Ford Poster](/images/blog/2015-11/Ford-Poster.jpg)
+![Ford Poster](/images/blog/2015-11/Ford-Poster-scaled.jpg)
 
 Ford is taking over Yoga Belly for one day only on Saturday November 14, 2015. Come test drive a 2015 Ford Edge and receive a FREE class & a FREE $20 Gift certificate, compliments of Ford. Please tell a friend and sign up today here: <http://www.yogabellystudio.com/schedule/>
