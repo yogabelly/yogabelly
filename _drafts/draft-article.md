@@ -80,7 +80,7 @@ Many text-editors have syntax highlighting for Markdown files. You may find it
 helpful to use such an editor. Some examples include:
 
 - [Textmate](http://macromates.com/)
-- [Atom](htts://atom.io)
+- [Atom](https://atom.io)
 - [SublimeText](http://www.sublimetext.com/)
 
 That's about it!
