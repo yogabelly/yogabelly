@@ -37,6 +37,7 @@ You can insert a quote by using angle-brackets:
 > like so:
 >
 > If you want to attribute the quote, do it like this:
+>
 > -- <cite>Some Person</cite>
 
 Links use this format:
