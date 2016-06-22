@@ -9,12 +9,15 @@ author: Aaron
 As a child I would listen to audio books. It would come with a picture book and a 45 record that you would play and the bell would ding and it would be time to turn the page. I grew up in a very religious family and there was a lot of training that went into making sure that I would become a spiritual leader in my home one day. I find myself at times singing to myself:
 
 > Have patience, have patience, don’t be in such a hurry, when you get impatient you only start to worry. Remember, remember that God is patient too so think of all the times when others have to wait for you...
+>
 > -- <cite>The Music Machine</cite>
 
 >Somewhere in outer space, God has prepared a place for those that trust him and obey, Jesus will come again and though we don’t know when, the countdowns getting lower everyday...
+>
 > -- <cite>The Countdown Song</cite>
 
 > I am a promise, I am a possibility, I am a promise with a capitol P. I am a great big bundle of potentiality. I am learning to hear Gods voice and I am trying to make the right choices. I am a promise to be, anything God wants me to be...
+>
 > -- <cite>I am a Promise</cite>
 
 These principles have been reinforced inside my psyche. They are a part of who I am. I have been trained to not let my soul be forgotten from young. When I left the church in 2003 and ventured off to find my own path I was pretty angry. It took getting mad to fuel me standing up for myself and to say, “This doesn’t represent what I believe in.” Even though I was angry I quietly bowed out of going and left in silence. I had seen over my lifetime all the people that had left in anger and caused a commotion on their way out of the door. I went on a journey to figure out what it was that I believe in. My mother wanted me to go to the pastor and talk it out. I knew he would try to convince me to stay and to rededicate my life to Christ. I said, "No."
