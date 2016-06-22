@@ -4,7 +4,7 @@ title: Now is the time...
 author: Aaron
 ---
 
-![200 Hour Teacher Training](/images/blog/2016-06/Summer-2016-Teacher-Trainig.jpg)
+![200 Hour Teacher Training](/images/blog/2016-06/Summer-2016-Teacher-Trainig-scaled.jpg)
 
 As a child I would listen to audio books. It would come with a picture book and a 45 record that you would play and the bell would ding and it would be time to turn the page. I grew up in a very religious family and there was a lot of training that went into making sure that I would become a spiritual leader in my home one day. I find myself at times singing to myself:
 
