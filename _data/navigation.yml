@@ -1,0 +1,30 @@
+# This defines what you see in the first half of the main sidebar. These are
+# links to other portions of this website. Each entry should have a label and
+# a url.
+---
+  - label: Home
+    url: /
+
+  - label: Classes
+    url: /classes/
+
+  - label: Teachers
+    url: /teachers/
+
+  - label: Locations
+    url: /locations/
+
+  - label: Rates
+    url: /rates/
+
+  - label: FAQ
+    url: /faq/
+
+  - label: Schedule
+    url: /schedule/
+
+  - label: Workshops
+    url: /workshops/
+
+  - label: Contact Us
+    url: /contact_us/

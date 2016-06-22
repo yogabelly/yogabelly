@@ -14,30 +14,12 @@ layout: default
    <th>Regular Price</td>
   </tr>
 
-  <tr>
-   <td><a href="http://clients.mindbodyonline.com/ws.asp?studioid=11869&amp;stype=41&amp;prodid=54" target="_blank" rel="nofollow">Belly Button (1-Class Pass)</a></td>
-   <td>$20</td>
-  </tr>
-
-  <tr>
-   <td><a href="http://clients.mindbodyonline.com/ws.asp?studioid=11869&amp;stype=41&amp;prodid=577" target="_blank" rel="nofollow">6-Pack (6-Class Pass)</a></td>
-   <td>$99</td>
-  </tr>
-
-  <tr>
-   <td><a href="http://clients.mindbodyonline.com/ws.asp?studioid=11869&amp;stype=41&amp;prodid=578" target="_blank" rel="nofollow">12-Pack (12-Class Pass)</a></td>
-   <td>$189</td>
-  </tr>
-
-  <tr>
-   <td><a href="http://clients.mindbodyonline.com/ws.asp?studioid=11869&amp;stype=41&amp;prodid=57" target="_blank" rel="nofollow">Washboard (25-Class Pass)</a></td>
-   <td>$349</td>
-  </tr>
-
-  <tr>
-   <td><a href="http://clients.mindbodyonline.com/ws.asp?studioid=11869&amp;stype=41&amp;prodid=58" target="_blank" rel="nofollow">Hard Core (1 Month Unlimited Pass)</a></td>
-   <td>$140</td>
-  </tr>
+  {% for rate in site.data.rates %}
+   <tr>
+     <td><a href="{{ rate.url }}" target="_blank" rel="nofollow">{{ rate.label }}</a></td>
+     <td>${{ rate.price }}</td>
+   </tr>
+  {% endfor %}
 
  </table>
 

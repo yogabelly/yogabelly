@@ -11,49 +11,9 @@ email: contact@yogabellystudio.com
 description: > # Yoga
   Belly.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://ojensen5115.github.io" # the base hostname & protocol for your site
+url: "https://yogabelly.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
 
 category-list: [classes, teachers]
-
-# Navigation
-navigation:
-  -
-    label: Home
-    url: /
-  -
-    label: Classes
-    url: /classes/
-  -
-    label: Teachers
-    url: /teachers/
-  -
-    label: Locations
-    url: /locations/
-  -
-    label: Rates
-    url: /rates/
-  -
-    label: FAQ
-    url: /faq/
-  -
-    label: Schedule
-    url: /schedule/
-  -
-    label: Workshops
-    url: /workshops/
-  -
-    label: Contact Us
-    url: /contact_us/
-navigation_links:
-  -
-    label: Retreats
-    url: http://clients.mindbodyonline.com/classic/ws?studioid=11869&amp;stype=-101&amp;sView=week&amp;sLoc=0
-  -
-    label: Blog
-    url: http://www.yogabellystudio.com/blog/
-  -
-    label: Events
-    url: https://clients.mindbodyonline.com/classic/ws?studioid=11869&amp;stype=-102&amp;sView=day&amp;date=06/13/15

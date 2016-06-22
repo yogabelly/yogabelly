@@ -1,0 +1,22 @@
+# This defines the prices you see on the rates page. Each entry should have a
+# label, a price, and a url
+---
+  - label: Belly Button (1-Class Pass)
+    price: 20
+    url: http://clients.mindbodyonline.com/ws.asp?studioid=11869&stype=41&prodid=54
+
+  - label: 6-Pack (6-Class Pass)
+    price: 99
+    url: http://clients.mindbodyonline.com/ws.asp?studioid=11869&stype=41&prodid=577
+
+  - label: 12-Pack (12-Class Pass)
+    price: 189
+    url: http://clients.mindbodyonline.com/ws.asp?studioid=11869&stype=41&prodid=578
+
+  - label: Washboard (25-Class Pass)
+    price: 349
+    url: http://clients.mindbodyonline.com/ws.asp?studioid=11869&stype=41&prodid=57
+
+  - label: Hard Core (1 Month Unlimited Pass)
+    price: 140
+    url: http://clients.mindbodyonline.com/ws.asp?studioid=11869&stype=41&prodid=58

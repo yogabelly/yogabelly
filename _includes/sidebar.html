@@ -3,7 +3,7 @@
  {{ testvar }}
 
  <ul class="nav nav-pills nav-stacked">
- {% for nav in site.navigation %}
+ {% for nav in site.data.navigation %}
    {% if page.url contains nav.url and (nav.url != '/' or page.url == '/') %}
      {% assign c = "active" %}
    {% else %}
@@ -14,7 +14,7 @@
  </ul>
  <hr>
  <ul class="nav nav-pills nav-stacked">
- {% for nav in site.navigation_links %}
+ {% for nav in site.data.navigation_external %}
   <li role="presentation"><a target="_blank" rel="nofollow" href="{{ nav.url }}">{{ nav.label }}</a></li>
  {% endfor %}
  </ul>
