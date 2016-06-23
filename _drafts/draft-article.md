@@ -5,7 +5,9 @@ layout: blogpost
 title: Some title goes here...
 # Who wrote it? Aaron / Will / etc.
 author: Aaron
-# Remember to name the file as follows: YYYY-MM-DD-some-title-goes-here.md
+
+# Remember to name the file as follows: YYYY-MM-DD-some-title-goes-here.md. This
+# is what defines the URL that the post will be visible at.
 
 # The following text is formatted in Markdown. Read about the syntax here:
 # https://help.github.com/articles/basic-writing-and-formatting-syntax/
