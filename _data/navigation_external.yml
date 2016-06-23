@@ -1,6 +1,9 @@
 # This defines what you see in the second half of the main sidebar. These are
 # links to other websites. Each entry should have a label and a url.
 ---
+  - label: Log in
+    url: /login/
+
   - label: Retreats
     url: http://clients.mindbodyonline.com/classic/ws?studioid=11869&amp;stype=-101&amp;sView=week&amp;sLoc=0
 
