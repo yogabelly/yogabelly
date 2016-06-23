@@ -18,7 +18,30 @@
   <hr>
 
   <h4>CHECK US OUT ON FLICKR</h4>
-  coming soon.
+  <div>
+    <div id="flickrbox"></div>
+    <a style="display: block; margin-top: 10px" href="https://www.flickr.com/photos/99548151@N02" rel="nofollow" target="_blank">More on Flickr &raquo;</a>
+  </div>
+  <script>
+  var flickrbox = document.getElementById('flickrbox');
+  function jsonFlickrFeed(data) {
+    for (var i = 0; i < 6; i++) {
+      var link = document.createElement('a');
+      link.href = data['items'][i]['link'];
+      link.title = data['items'][i]['title'];
+      link.style.display = 'inline-block';
+      link.style.width = '75px';
+      link.style.height = '75px';
+      link.style.border = '4px solid #ddd';
+      link.style.margin = '2px';
+      var image = document.createElement('img');
+      image.src = data['items'][i]['media']['m'].replace(/_m\.jpg$/, '_s.jpg');
+      link.appendChild(image);
+      flickrbox.appendChild(link);
+    }
+  }
+  </script>
+  <script src="https://api.flickr.com/services/feeds/photos_public.gne?id=99548151@N02&format=json">
 
   <hr>
 
