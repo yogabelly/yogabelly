@@ -32,7 +32,7 @@
      <!-- Collect the nav links, forms, and other content for toggling -->
      <div class="collapse navbar-collapse" id="smallnav">
       <ul class="nav navbar-nav">
-      {% for nav in site.navigation %}
+      {% for nav in site.data.navigation %}
         {% if page.url contains nav.url or (page.url == '/' and nav.url == '/index.html') %}
           {% assign c = "active" %}
         {% else %}
@@ -40,7 +40,7 @@
         {% endif %}
         <li role="presentation" class="{{ c }}"><a href="{{ nav.url | replace: 'index.html', '' | prepend: site.baseurl }}">{{ nav.label }}</a></li>
       {% endfor %}
-      {% for nav in site.navigation_links %}
+      {% for nav in site.data.navigation_links %}
         <li role="presentation"><a target="_blank" rel="nofollow" href="{{ nav.url }}">{{ nav.label }}</a></li>
       {% endfor %}
       </ul>
