@@ -225,9 +225,17 @@ a.well:hover {
   overflow: auto;
 }
 
+.blog h1,
+.blog h2 {
+  font-family: 'Lato', sans-serif;
+}
+
 .blog img {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 10px;
+  margin: 10px auto;
+  padding: 5px;
+  border: 1px solid #999;
+  background: #fff;
 }
