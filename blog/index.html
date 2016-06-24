@@ -10,9 +10,28 @@ layout: blog
 <h1>Yoga Belly Blog</h1>
 <h2><small>Committed to delivering the <span title="gnarliest">&#x1D58C;&#x1D593;&#x1D586;&#x1D597;&#x1D591;&#x1D58E;&#x1D58A;&#x1D598;&#x1D599;</span> yoga experience.</small></h2>
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
   <hr>
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  <h4>{{ post.date | date: "%B %-d, %Y" }} / {{ post.author }}</h4>
+  <h4>{{ post.date | date: "%B %-d, %Y" }} / {% if post.author.display_name %}{{ post.author.display_name }}{% else %}{{ post.author }}{% endif %}</h4>
   {{ post.content }}
 {% endfor %}
+
+
+
+<!-- Pagination links -->
+<hr>
+<nav>
+  <ul class="pager">
+  {% if paginator.previous_page %}
+    <li class="previous"><a href="{{ paginator.previous_page_path }}" class="previous"><span aria-hidden="true">&larr;</span> Newer</a></li>
+  {% else %}
+    <li class="previous"><span aria-hidden="true">&larr;</span> Newer</li>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <li class="next"><a href="{{ paginator.next_page_path }}" class="next"><span aria-hidden="true">&rarr;</span> Older</a></li>
+  {% else %}
+    <li class="next"><span aria-hidden="true">&rarr;</span> Older</li>
+  {% endif %}
+</nav>

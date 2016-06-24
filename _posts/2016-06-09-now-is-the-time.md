@@ -1,5 +1,5 @@
 ---
-layout: blogpost
+layout: post
 title: Now is the time...
 author: Aaron
 ---

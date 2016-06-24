@@ -1,6 +1,6 @@
 ---
 # Don't edit the layout line
-layout: blogpost
+layout: post
 # Title of the article
 title: Want to bring a friend for free in the month of October?
 # Who wrote it? Aaron / Will / etc.

@@ -1,6 +1,6 @@
 ---
 # Don't edit the layout line
-layout: blogpost
+layout: post
 # Title of the article
 title: 10 Questions with Aaron about his new class Y B Basic
 # Who wrote it? Aaron / Will / etc.

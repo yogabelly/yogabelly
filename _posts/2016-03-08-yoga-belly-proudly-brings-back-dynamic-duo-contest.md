@@ -1,6 +1,6 @@
 ---
 # Don't edit the layout line
-layout: blogpost
+layout: post
 # Title of the article
 title: "Yoga Belly Proudly Brings Back: Dynamic Duo Contest"
 # Who wrote it? Aaron / William / etc.

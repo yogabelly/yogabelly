@@ -1,6 +1,6 @@
 ---
 # Don't edit the layout line
-layout: blogpost
+layout: post
 # Title of the article
 title: Ford Motor Company takes over Yoga Belly on Saturday November 14, 2015
 # Who wrote it? Aaron / Will / etc.

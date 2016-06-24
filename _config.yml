@@ -20,4 +20,14 @@ markdown: kramdown
 category-list: [classes, teachers]
 
 # Allows us to put the blog in a subdirectory
-permalink: /blog/:categories/:year/:month/:day/:title.html
+#permalink: /blog/:categories/:year/:month/:day/:title.html
+permalink: /blog/:year/:month/:day/:title.html
+
+# How many posts per page would you like to see on the blog?
+paginate: 10
+
+# What should the URLs of blog pages look like?
+paginate_path: "/blog/page:num/"
+
+# Dependencies... ignore this line
+gems: [jekyll-paginate]
