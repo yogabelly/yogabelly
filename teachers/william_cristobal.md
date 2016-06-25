@@ -5,7 +5,7 @@ title: William Cristobal
 # Image for the teachers page (square, aim for 300x300 px)
 thumbnail_url: /images/teachers/william-cristobal-thumb.jpg
 # Image for the teacher's individual page (aim for 700px wide)
-image_url: 
+image_url:
 # If you have a youtube video for this teacher, enter the video ID (e.g. qaqiC84uaNg)
 youtube: hOzYaO7TiyM
 # List of locations this teacher is active
