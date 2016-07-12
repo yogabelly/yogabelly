@@ -8,4 +8,4 @@
     url: http://clients.mindbodyonline.com/classic/ws?studioid=11869&amp;stype=-101&amp;sView=week&amp;sLoc=0
 
   - label: Events
-    url: https://clients.mindbodyonline.com/classic/ws?studioid=11869&amp;stype=-102&amp;sView=day&amp;date=06/13/15
+    url: https://clients.mindbodyonline.com/classic/ws?studioid=11869&stype=-102&sView=week&sLoc=0
