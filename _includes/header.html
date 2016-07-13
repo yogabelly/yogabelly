@@ -44,6 +44,12 @@
         <li role="presentation"><a target="_blank" rel="nofollow" href="{{ nav.url }}">{{ nav.label }}</a></li>
       {% endfor %}
       </ul>
+      <hr>
+      <ul class="nav nav-pills nav-stacked">
+      {% for nav in site.data.navigation_external %}
+       <li role="presentation"><a target="_blank" rel="nofollow" href="{{ nav.url }}">{{ nav.label }}</a></li>
+      {% endfor %}
+      </ul>
      </div>
     </div>
    </nav>
