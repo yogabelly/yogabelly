@@ -11,8 +11,8 @@
   - label: Teachers
     url: /teachers/
 
-  - label: Locations
-    url: /locations/
+  - label: Location
+    url: /location/
 
   - label: Rates
     url: /rates/
