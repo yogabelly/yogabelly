@@ -1,5 +1,5 @@
 ---
-layout: class
+layout: class-inactive
 
 # Name and description of class
 title: Yoga Tune Up&reg;
