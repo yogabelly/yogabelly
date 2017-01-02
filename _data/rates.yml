@@ -1,25 +1,25 @@
 # This defines the prices you see on the rates page. Each entry should have a
 # label, a price, and a url
 ---
-  - label: Belly Button (1-Class Pass)
-    price: 20
-    url: http://clients.mindbodyonline.com/ws.asp?studioid=11869&stype=41&prodid=54
+  - label: Belly Button (24-Hour Pass)
+    price: 25
+    url: https://clients.mindbodyonline.com/classic/ws?studioid=11869&stype=41&sTG=22&prodId=923
 
   - label: 6-Pack (6-Class Pass)
-    price: 99
-    url: http://clients.mindbodyonline.com/ws.asp?studioid=11869&stype=41&prodid=577
+    price: 120
+    url: http://clients.mindbodyonline.com/classic/ws?studioid=11869&stype=41&prodid=577
 
   - label: 12-Pack (12-Class Pass)
-    price: 189
-    url: http://clients.mindbodyonline.com/ws.asp?studioid=11869&stype=41&prodid=578
+    price: 210
+    url: http://clients.mindbodyonline.com/classic/ws?studioid=11869&stype=41&prodid=578
 
   - label: Washboard (25-Class Pass)
-    price: 349
-    url: http://clients.mindbodyonline.com/ws.asp?studioid=11869&stype=41&prodid=57
+    price: 375
+    url: http://clients.mindbodyonline.com/classic/ws?studioid=11869&stype=41&prodid=57
 
   - label: Hard Core (1 Month Unlimited Pass)
-    price: 140
-    url: http://clients.mindbodyonline.com/ws.asp?studioid=11869&stype=41&prodid=58
+    price: 150
+    url: http://clients.mindbodyonline.com/classic/ws?studioid=11869&stype=41&prodid=58
 
   - label: Unlimited Classes Membership (Automatic debit w/ 2-month minimum commitment)
     price: 119
