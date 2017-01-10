@@ -5,7 +5,7 @@
     url: /login/
 
   - label: Retreats
-    url: http://clients.mindbodyonline.com/classic/ws?studioid=11869&amp;stype=-101&amp;sView=week&amp;sLoc=0
+    url: https://clients.mindbodyonline.com/classic/ws?studioid=11869&stype=-101&sView=day&sLoc=0
 
   - label: Events
-    url: https://clients.mindbodyonline.com/classic/ws?studioid=11869&stype=-102&sView=week&sLoc=0
+    url: https://clients.mindbodyonline.com/classic/ws?studioid=11869&stype=-102&sView=day&sLoc=0
