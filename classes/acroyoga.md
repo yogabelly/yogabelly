@@ -3,7 +3,7 @@ layout: class
 
 # Name and description of class
 title: Acro Yoga
-blurb: Take flight & soar
+blurb: Fly like an eagle
 
 # URL of the image on the classes page (aim for 270 x 270 px)
 thumbnail_url: /images/classes/acroyoga-thumb.jpg
