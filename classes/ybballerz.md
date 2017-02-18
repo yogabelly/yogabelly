@@ -11,6 +11,6 @@ thumbnail_url: /images/classes/ybballerz-thumb.jpg
 image_url: /images/classes/ybballerz.jpg
 ---
 
-At Yoga Belly, we take our balls very seriously from our disco ball to massage therapy balls. Well guess what? We're bringing more balls to the party! We are proud to introduce our latest addition to our class offering YB BALLERZ! Created by Trish, Summer, & Will, YB Ballerz is our new signature flow class that gets a little help from 2 weighted balls, balls that just about fit every yogi's hands. But what kind of class is YB Ballerz you ask? Sculpting, yes. Toning, yes. Strengthening, yes. It is everything you need to look & to feel your best!
+At Yoga Belly, we take our balls very seriously from our disco ball to massage therapy balls. Well guess what? We're bringing more balls to the party! We are proud to introduce our latest addition to our class offering YB BALLERZ! Created by Trish, Summer, & Will, YB Ballerz is our new signature flow class that gets a little help from two weighted balls---2 lbs or 3 lbs---that are designed for the perfect grip. But what kind of class is YB Ballerz you ask? Sculpting, yes. Toning, yes. Strengthening, yes. Yoga flow, yes. It is everything you need to look & to feel your best!
 
 FINE PRINT: YB Ballerz is a super loud & rockin class. We ask that students have prior yoga experience or minimum 3-month Yoga Belly class experience before joining YB Ballerz.
