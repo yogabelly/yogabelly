@@ -9,5 +9,11 @@ layout: default
 </ol>
 
  <h1>Classes: {{ page.title }}</h1>
- <img style="border-radius: 5px; border: 1px solid #666; width: 45%; float: left; margin-top: 5px; margin-right: 20px" src="{{ page.image_url | prepend: site.baseurl }}" style="width: 100%">
+ {% if page.youtube %}
+    <iframe style="width: 480px; height: 270px; float: left; margin-top: 10px; margin-right: 20px" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>
+ {% elsif page.image_url %}
+    <img style="border-radius: 5px; border: 1px solid #666; width: 45%; float: left; margin-top: 5px; margin-right: 20px" src="{{ page.image_url | prepend: site.baseurl }}" style="width: 100%">
+ {% else %}
+    <img src="{{ "/images/teachers/placeholder.png" | prepend: site.baseurl }}">
+ {% endif %}
  <div class="class_description">{{ content }}</div>

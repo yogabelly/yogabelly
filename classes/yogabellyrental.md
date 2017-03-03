@@ -13,7 +13,7 @@ image_url:
 youtube: RGpujI_roXQ
 ---
 
-Wanna host your own events or workshops at Yoga Belly? We are happy to share our lovely space with you at reasonable rates. Email us at info@yogabellystudio.com & tell us what your vision is & we'll see what we can do to accommodate ya...
+Wanna host your own events or workshops at Yoga Belly? We are happy to share our lovely space with you at reasonable rates. Email us at [info@yogabellystudio.com](mailto:info@yogabellystudio.com) & tell us what your vision is & we'll see what we can do to accommodate ya...
 
 Check out these testimonials...
 
@@ -21,7 +21,7 @@ Susan Holland, Fitness & Yoga: It's a beautiful space in a great location. The s
 
 Christine Oakes, Fun2BeFit: Holding the workshop at the studio was a great experience! It provided all of the equipment (blocks, straps, sound equipment, and heat) that was needed to hold a fun class. We had a soldout class so I would say the turnout was better than expected. After, everyone was able to go out and play in downtown Mountain View due to the convenience of the location.
 
-Leslie Van Schaak, Acro Yoga Teacher: Great space! Lighting options great to achieve the right ambiance. And of course the disco ball ROCKS and takes the class to a whole new level! Also appreciate great heating options and sound quality. 
+Leslie Van Schaak, Acro Yoga Teacher: Great space! Lighting options great to achieve the right ambiance. And of course the disco ball ROCKS and takes the class to a whole new level! Also appreciate great heating options and sound quality.
 
 Adam Sewell, Yoga Teacher: My turnout included Yoga Belly students and students from a couple of other studios. I received great feedback on my workshop and
-many of the students really liked the location and the venue. 
+many of the students really liked the location and the venue.
