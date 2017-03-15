@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<ol class="breadcrumb">
+  <li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
+  <li class="active">Merchandise</li>
+</ol>
+
+<h1>Yoga Belly Merchandise</h1>
+<div class="row">
+ {% for page in site.pages %}
+   {% if page.layout == 'merch' %}
+  <div class="col-md-4 col-sm-6 col-xs-6">
+   <a class="well teacher" href="{{ page.link }}" target="_blank">
+    <div class="imgholder" style="background: url({{ page.thumbnail_url | prepend: site.baseurl }}) no-repeat; background-size: cover; padding-top: 75%">
+    </div>
+    <div class="name">{{ page.title }}</div>
+    <div class="price">{{ page.price }}</div>
+   </a>
+  </div>
+   {% endif %}
+ {% endfor %}
+</div>
