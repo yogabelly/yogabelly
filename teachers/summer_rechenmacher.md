@@ -7,7 +7,7 @@ thumbnail_url: /images/teachers/summer-rechenmacher-thumb.jpg
 # Image for the teacher's individual page (aim for 700px wide)
 image_url: /images/teachers/summer-rechenmacher.jpg
 # If you have a youtube video for this teacher, enter the video ID (e.g. qaqiC84uaNg)
-youtube:
+youtube: nmrDBVkTgPQ
 # List of locations this teacher is active
 locations: ['Mountain View']
 # Teacher's ID on MindBody Online
