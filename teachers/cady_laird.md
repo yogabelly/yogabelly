@@ -1,5 +1,5 @@
 ---
-layout: teacher
+layout: teacher-inactive
 # Teacher's name
 title: Cady Laird
 # Image for the teachers page (square, aim for 300x300 px)
