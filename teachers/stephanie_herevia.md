@@ -19,6 +19,7 @@ mbo_id: 100000276
 ---
 
 Stephanie's yoga journey began in 2008 after taking a yoga class in college. She instantly loved the amount of stress relief and happiness she felt after each class. Soon after she developed a steady practice and wanted to learn everything possible about yoga. In 2014 she took yoga history, philosophy, and children's yoga workshops. She started teaching children's yoga where she found happiness in teaching. She then discovered Yoga Belly where earned her 200-Hour Yoga Teacher Training certificate.
+
 Stephanie loves to bring her excitement and love of yoga to each class, finding new ways to challenge her students mindfully and physically. She hopes to bring the same happiness to you as her first yoga teacher brought to her.
 
 Outside of yoga, Stephanie loves outdoor activities like rock climbing, mountain biking, and mostly finding new and amazing hiking and camping spots. She is always excited for new adventures, and would love to hear about yours.

@@ -9,7 +9,7 @@ image_url: /images/teachers/mark-baller.jpg
 # If you have a youtube video for this teacher, enter the video ID (e.g. qaqiC84uaNg)
 youtube:
 # List of locations this teacher is active
-locations: ['Mountain View', 'San Jose']
+locations: ['Mountain View']
 # Teacher's ID on MindBody Online
 mbo_id: 100000282
 
