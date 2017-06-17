@@ -5,7 +5,7 @@ title: Mark Baller
 # Image for the teachers page (square, aim for 300x300 px)
 thumbnail_url: /images/teachers/mark-baller-thumb.jpg
 # Image for the teacher's individual page (aim for 700px wide)
-image_url: /images/teachers/mark-baller.jpg
+image_url: /images/teachers/placeholder.png
 # If you have a youtube video for this teacher, enter the video ID (e.g. qaqiC84uaNg)
 youtube:
 # List of locations this teacher is active

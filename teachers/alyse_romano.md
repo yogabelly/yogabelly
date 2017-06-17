@@ -3,11 +3,11 @@ layout: teacher
 # Teacher's name
 title: Alyse Romano
 # Image for the teachers page (square, aim for 300x300 px)
-thumbnail_url: /images/teachers/yb-thumb.jpg
+thumbnail_url: /images/teachers/alyse-romano-thumb.jpg
 # Image for the teacher's individual page (aim for 700px wide)
-image_url: /images/teachers/placeholder.png
+image_url: /images/teachers/alyse-romano-thumb.jpg
 # If you have a youtube video for this teacher, enter the video ID (e.g. qaqiC84uaNg)
-youtube:
+youtube: ZiMbuIL5SWM
 # List of locations this teacher is active
 locations: ['Mountain View']
 # Teacher's ID on MindBody Online
