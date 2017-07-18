@@ -5,7 +5,7 @@ title: Alyse Romano
 # Image for the teachers page (square, aim for 300x300 px)
 thumbnail_url: /images/teachers/alyse-romano-thumb.jpg
 # Image for the teacher's individual page (aim for 700px wide)
-image_url: /images/teachers/alyse-romano-thumb.jpg
+image_url:
 # If you have a youtube video for this teacher, enter the video ID (e.g. qaqiC84uaNg)
 youtube: ZiMbuIL5SWM
 # List of locations this teacher is active

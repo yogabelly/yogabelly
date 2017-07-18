@@ -31,3 +31,10 @@
 
   - label: Blog
     url: /blog/
+
+  - label: Events
+    url: /events/
+
+  - label: Retreats
+    url: /retreats/
+
