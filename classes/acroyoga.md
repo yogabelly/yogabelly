@@ -15,4 +15,4 @@ Are you ready to fly?
 
 Join us for this latest addition to the Yoga Belly menu... Acro Yoga takes your practice to new heights, all pun intended, where you not only explore your asana practice in unique ways but also develop trust and communication skillz with a partner. Learn how be the "base" and how to be the "flyer" and feel what it's like to practice yoga for the very first time again.
 
-Fine print: This class is ideally for seasoned yoga students. Must have at least 3 months of Yoga Belly or YBX under your belt prior to taking Acro Yoga.
+Fine print: This class is ideally for seasoned yoga students. Must have at least 3 months of yoga practice under your belt prior to taking Acro Yoga.
